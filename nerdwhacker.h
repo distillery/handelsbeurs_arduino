@@ -1,6 +1,6 @@
 
 
-char plexis[12]={'a','b','c','d','e','f','g','h','i','j','k','l'};
+char plexis[12]={'z','x','s','w','q','a','c','r','f','v','e','d'};
 
 // LED DIGITS
 

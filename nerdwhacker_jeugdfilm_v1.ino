@@ -108,7 +108,7 @@ void loop()
         
         highest=0;
 	val=0;
-	plexi='z';  
+	plexi='y';  
         
         /* 
           // READ PIEZO'S
@@ -128,7 +128,7 @@ void loop()
             delay(1);
 	    
         }
-        if (plexi != 'z') {
+        if (plexi != 'y') {  //oplossen!
           
           // debug
           Serial.print(plexi);
