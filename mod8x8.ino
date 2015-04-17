@@ -13,45 +13,45 @@ void drawLevens(int i) {
     draw12Heart(0);
     break;
     
-    case 3:
+    case 10:
     draw34Heart(0);
     break;
     
-    case 4:
+    case 3:
     drawFullHeart(0);
     break;
-    case 5:
+    case 4:
     drawFullHeart(0);
     draw14Heart(8);
     break;
-    case 6:
+    case 5:
     drawFullHeart(0);
     draw12Heart(8);
     break;
-    case 7:
+    case 11:
     drawFullHeart(0);
     draw34Heart(8);
     break;
-    case 8:
+    case 6:
     drawFullHeart(0);
     drawFullHeart(8);
     break;
-    case 9:
+    case 7:
     drawFullHeart(0);
     drawFullHeart(8);
     draw14Heart(16);
     break;
-    case 10:
+    case 8:
     drawFullHeart(0);
     drawFullHeart(8);
     draw12Heart(16);
     break;
-    case 11:
+    case 12:
     drawFullHeart(0);
     drawFullHeart(8);
     draw34Heart(16);
     break;
-    case 12:
+    case 9:
     drawFullHeart(0);
     drawFullHeart(8);
     drawFullHeart(16);

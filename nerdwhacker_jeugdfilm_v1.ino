@@ -28,7 +28,7 @@
 #define TOPSCORE 1
 #define RANKING 2
 
-#define BUFFERSIZE 8 // 3x voor score, 2x levens, 3x topscore
+#define BUFFERSIZE 7 // 3x voor score, 1 leven, 3x topscore
 #define aantalPiezzos 12 //eerste piezo op analog0, 2e op analog1 enz
 #define treshold 75
 
@@ -46,7 +46,7 @@ int val; // waarde vd piezo
 int highest; // voor het bijhouden van de tot op een bepaald moment gemeten hoogste waarde
 //int SCORE;
 //int HIGHSCORE;
-int LEVENS=12;
+int LEVENS=9;
 char dataFromOF[3];
 int timeCount; // variabele om 'tijd bij te houden, en op die manier MODLEDS op te daten
 boolean hold=false; // boolean om bij te houden of delay van 500ms moet toegepast worden
