@@ -1,6 +1,7 @@
 
 
-char plexis[12]={'z','x','s','w','q','a','c','r','f','v','e','d'};
+//char plexis[12]={'z','x','s','w','q','a','c','r','f','v','e','d'};  // beamer flipped
+char plexis[12]={'e','c','d','v','f','r','x','a','q','w','z','s'};  // non flipped
 
 // LED DIGITS
 

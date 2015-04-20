@@ -85,7 +85,8 @@ void setup()
 void loop() 
 {
      drawLevens(LEVENS);
-     drawTeeth();
+     //drawTeeth();
+     drawDistillery();
     /* 
       INLEZEN WAARDE RESETPIN (LOW/HIGH)
     */

@@ -48,7 +48,7 @@ void Transfer () {      			//transfer the video buffer to MOD-LED8x8RGB
 
 //----------------------------------------------------------------------------------------------	
 void drawPixel (unsigned int X, unsigned int Y) {    //draw drawPixel at x,y coordinates to MOD-LED8x8RGB 1,1 is upper left corner
-   if (Y<=bigY*8 && X<=bigX*8 && X>0 && Y>0) {
+   if (Y<=bigY*8 && X<=bigX*8 && X>0 && Y>0) {  // als x en y geldig zijn
       if (Y>8) X=(X+bigX*8)*((Y-1)/8);
       Y=Y%8;
       if (Y==0) Y=8;
